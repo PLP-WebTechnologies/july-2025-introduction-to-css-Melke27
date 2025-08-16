@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS External Stylesheet Demo</title>
+    <!-- Linking the external CSS file -->
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header class="site-header">
+        <h1>Welcome to My Styled Page</h1>
+        <nav class="main-nav">
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Services</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main class="content-area">
+        <section class="intro-section">
+            <h2>Understanding the Box Model</h2>
+            <p>This page demonstrates how to connect an external CSS file and apply various styles while working with the CSS Box Model.</p>
+            <button class="primary-btn">Learn More</button>
+        </section>
+
+        <section class="card-container">
+            <article class="info-card">
+                <h3>Margin</h3>
+                <p>Margin creates space around elements, outside of any defined borders. It clears an area outside the border.</p>
+            </article>
+            
+            <article class="info-card">
+                <h3>Padding</h3>
+                <p>Padding creates space around content, inside of any defined borders. It clears an area around the content.</p>
+            </article>
+            
+            <article class="info-card highlighted">
+                <h3>Border</h3>
+                <p>The border property allows you to specify the style, width, and color of an element's border.</p>
+            </article>
+        </section>
+    </main>
+
+    <footer class="site-footer">
+        <p>&copy; 2023 CSS Demo Page. All rights reserved.</p>
+    </footer>
+</body>
+</html>
